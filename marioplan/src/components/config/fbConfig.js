@@ -1,7 +1,6 @@
-// import firebase from 'firebase/app';
-import * as firebase from 'firebase/app';
+import firebase from 'firebase/app';
 import 'firebase/analytics';
-// import * as firebase from "firebase";
+
 import 'firebase/firestore';
 import 'firebase/auth';
 
@@ -19,9 +18,8 @@ var firebaseConfig = {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
-//   // eslint-disable-next-line 
-  const analytics = firebase.analytics();
-// firebase.analytics();
-//   firebase.firestore().settings({timestampsInSnapshots:true});
+   // eslint-disable-next-line 
+ 
+ firebase.analytics();
 
   export default firebase;
